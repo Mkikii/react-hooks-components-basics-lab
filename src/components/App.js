@@ -1,30 +1,18 @@
-import React from "react";
+import React from 'react';
+// Import other components as needed
+// import Navbar from './Navbar';
+// import ComponentName from './ComponentName';
 
-function NavBar() {
-  return (
-    <nav>
-      <a href="#home">I'm a link!</a>
-    </nav>
-  );
-}
-
-function Home() {
-  return (
-    <div id="home">
-      <h1>Home</h1>
-    </div>
-  );
-}
-
-{/* write an <About> component here */}
-
-
+// App component (you need to include all child components here)
 function App() {
   return (
     <div>
-      <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <nav>
+        <div id="home">Home</div>
+        <div id="about">About</div>
+      </nav>
+      <h1>Hello World!</h1>
+      {/* Add your other components here once they are created */}
     </div>
   );
 }
